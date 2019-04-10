@@ -1,0 +1,9 @@
+<h1>Grouped elements </h1>
+<div class="tools-category" *ngFor="let tool of menus | groupBy:'categoria' | pairs ">
+	<h3>{{tool[0]}}</h3>
+	<div class="tools-by-cat">
+		<div *ngFor="let val of tool[1]" class="tool-item">
+			<h2>{{val.description}}</h2>
+		</div>
+	</div>
+</div>

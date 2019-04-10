@@ -1,0 +1,18 @@
+p {
+  font-family: Lato;
+}
+
+.tools-category{
+  border: solid 1px red;
+  background: lightgray;
+  margin: 5px;
+  padding: 4px;
+}
+
+.tools-by-cat{}
+
+.tool-item{
+  background:lightgreen;
+  margin: 5px;
+  padding: 2px;
+}
